@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.header {
+    padding: 30px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav__link {
+    color: #cc9630;
+}
+
+.nav__link:hover {
+    color: #c28b24;
+}
+
+.section {
+    height: 100vh;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(img/zima-snezhinki-fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-size: 60px;
+    background-image: url(img/zolotoi-gradient.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.title__top {
+    font-family: 'Great Vibes', cursive;
+}
+
+.title__bottom {
+    text-transform: uppercase;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.main__desc {
+    width: 500px;
+    font-size: 18px;
+}
+
+.main__link {
+    background-color: #cc9630;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    width: 165px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main__link:hover {
+    background-color: #c28b24;
+}
+
+.desc {
+    display: flex;
+}
+
+.subtitle {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #cc9630;
+}
+
+.section__col {
+    width: 50%;
+}
+
+.desc__img-wrap {}
+
+.desc__info {
+    padding: 50px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(img/deer.png) no-repeat top right / 200px, url(img/rabbit.png) no-repeat center bottom / 200px;
+}
+
+.desc__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.poem {
+    background-image: url(img/novogodnii-fon-stena.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.poem__text {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 25px;
+}
